@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# START CONTENT FROM index.md
-
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -123,4 +121,3 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
-# END CONTENT FROM index.md

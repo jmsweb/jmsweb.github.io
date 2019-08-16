@@ -1,10 +1,5 @@
-title: Engineering Application
-description: A GitHub Pages to interactively manage my list of repository.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jmsweb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: Architect theme
+description: Architect is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-tactile
-plugins:
-   - jekyll-feed
-   - jekyll-paginate
+theme: jekyll-theme-architect
