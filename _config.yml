@@ -4,7 +4,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jmsweb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-tactile
+theme: jekyll-theme-architect
 plugins:
    - jekyll-feed
    - jekyll-paginate
