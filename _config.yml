@@ -8,3 +8,4 @@ github: [metadata]
 theme: null # To force no css in build
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
