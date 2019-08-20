@@ -9,3 +9,8 @@ theme: null # To force no css in build
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+
+pages_list:
+  About: '/about'
+  Archive: '/blog'
+  Feed: '/feed.xml'

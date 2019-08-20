@@ -244,6 +244,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed
   jekyll-seo-tag
   wdm (>= 0.1.0)
 
