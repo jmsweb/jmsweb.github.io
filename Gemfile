@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-theme-simplicity"
+  gem 'jekyll-theme-simplicity', git: 'https://github.com/jmsweb/simplicity'
   gem 'jekyll-seo-tag'
   gem 'jekyll-feed'
 end
