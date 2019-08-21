@@ -13,7 +13,7 @@ pages_list:
 
 # Build settings
 # theme: jekyll-theme-simplicity
-remote_theme: jmsweb/jekyll-theme-simplicity
+remote_theme: jmsweb/simplicity
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
