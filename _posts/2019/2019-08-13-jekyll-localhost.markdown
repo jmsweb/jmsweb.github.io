@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Jekyll Localhost"
 date:   2019-08-13 22:53:31 -0400
 categories: blog
 ---
