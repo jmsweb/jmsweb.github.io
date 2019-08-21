@@ -5,12 +5,15 @@ url: "https://jmsweb.github.io" # the base hostname & protocol for your site, e.
 show_downloads: true
 google_analytics:
 github: [metadata]
-theme: null # To force no css in build
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
 
 pages_list:
   About: '/about'
   Archive: '/blog'
   Feed: '/feed.xml'
+
+# Build settings
+# theme: jekyll-theme-simplicity
+remote_theme: jmsweb/jekyll-theme-simplicity
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
