@@ -1,7 +1,7 @@
 title: Engineering Application
 description: A GitHub Pages to interactively manage my list of repository.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jmsweb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://jmsweb.github.io"
 show_downloads: true
 google_analytics:
 github: [metadata]
@@ -12,8 +12,7 @@ pages_list:
   Feed: '/feed.xml'
 
 # Build settings
-# theme: jekyll-theme-simplicity
-remote_theme: jmsweb/simplicity
+theme: null
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
