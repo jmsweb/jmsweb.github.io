@@ -4,7 +4,6 @@ title:  "Custom 404 Page"
 date:   2019-08-13 22:53:31 -0400
 categories: blog
 ---
-[Jekyll RB - 404 page](https://jekyllrb.com/tutorials/custom-404-page/)
 [RubyGem gem yank](https://guides.rubygems.org/command-reference/#gem-yank)
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
