@@ -2,10 +2,11 @@
     <div class="wrapper">
         <nav class="site-nav">
             <p class="trigger float-u-left">
-                <a href="{{site.baseurl}}/">Home</a>
+                <a href="{{site.baseurl}}/">
+                    <img src="{{site.baseurl}}/assets/img/home.svg" class="home-u-icon"/>
+                </a>
             </p>
             <p class="trigger float-u-right">
-                <!-- {{ site.title }} instead of blog -->
                 {% for page in site.pages %}
                     {% if page.title %}
                         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
