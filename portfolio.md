@@ -26,10 +26,10 @@ permalink: /portfolio/
 {% else %}
 
 <div class="project ">
-    <div class="thumbnail">
+    <div class="thumbnail portfolio">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
+        <img src="{{ project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
