@@ -4,7 +4,7 @@ layout: default
 
 <div class="header-bar">
     <h1>jmsweb</h1>
-    <h2>A good way to stay <em>flexible</em> is to write less and elegant code.</h2>
+    <h2>A good way to code <em>flexibly</em> is to write less and unit-tested code.</h2>
     <br/>
     <hr>
     <br/>
