@@ -3,30 +3,24 @@ layout: post
 title:  "Custom 404 Page"
 date:   2019-08-13 22:53:31 -0400
 categories: blog
+comments: true
 ---
 
-## Custom 404 Page
+One of cool features about Jekyll and Liquid include customization of HTML error pages, i.e., 404, to its own file. If your project root, `/project-name`, has a file named `404.md` or `404.html`, it will be automatically shown as error page for when URL is not available.
 
-One of cool features about Jekyll and Liquid include customization of HTML error pages, i.e., 404, to its own 404.md or 404.html file. If your project root, `/project-name`, has a file named 404.md or 404.html, it will be automatically loaded as error page.
+In depth information about custom 404 can be found on [Jekyll RB - 404 page](https://jekyllrb.com/tutorials/custom-404-page/) as how to customize up to your own preference.
+<br/>
+### Example
+<br/>
+To get started with customizing your own 404 in either markdown or HTML format, simply place a `404.md` or `404.html` in your project root folder. If the 404 file do not have a front matter, it will be rendered as own layout independent of web template.
 
-[Jekyll RB - 404 page](https://jekyllrb.com/tutorials/custom-404-page/)
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight html %}
+---
+layout: error
+---
+<div>
+    How'd you get here?
+</div>
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The above example require a `error.html` file in `_layout` directory for Jekyll and Liquid to process any bad URLs.
