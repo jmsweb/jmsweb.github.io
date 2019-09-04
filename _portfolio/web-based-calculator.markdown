@@ -1,55 +1,62 @@
 ---
-layout: post
+layout: page
 title: Web-based Calculator
 description: A functional mockup of iOS calculator written with HTML, CSS, and JavaScript.
 img: /assets/img/web-calculator.png
+jquery: true
+comments: true
+date: September 3, 2019
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+Some time ago, I was wondering whether it is feasible to develop a replication of iOS calculator in web browser. So, one night my inspiration and energy were strong
+enough to start being creative with native JavaScript and CSS. I had my own iPhone with calculator to study for feedback in part of design process for coding.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
+Few key features are left out due to time and schedule. The feature are scientific view when iPhone is in landscape mode, `AC` and `C` toggle behavior, and
+backspacing digits. I'm sure there are other key features that I hadn't noticed because I don't use iOS calculator that often.
 
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /assets/img/12.jpg
-	---
+This HTML5 Table is also responsive in either Desktop and Mobile view. You could even resize the web browser or view in your mobile device and the table
+would fit nicely on screen!
 
+Fork and clone my repository at [Web Based Calculator](https://github.com/jmsweb/web-calculator). If there are anything that could be improved, go and create
+a pull request for review.
 
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/web-calculator.css'}} ">
+<div id="calculator-container">
+    <table id="calculator-table">
+        <tbody>
+            <tr>
+                <td colspan="4" class="screen">0</td>
+            </tr>
+            <tr>
+                <td class="function custom-ac">AC</td>
+                <td class="function">&#177;</td>
+                <td class="function">&#37;</td>
+                <td class="operand">&#247;</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td class="operand">&#215;</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td class="operand">&#45;</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td class="operand">&#43;</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="zero">0</td>
+                <td>&#46;</td>
+                <td class="operand">&#61;</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
-<div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
-
-	<div class="img_row">
-	  <img class="col two" src="/assets/img/6.jpg"/>
-	  <img class="col one" src="/assets/img/11.jpg"/>
-	</div>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/web-calculator.js"></script>

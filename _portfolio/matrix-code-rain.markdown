@@ -1,55 +1,20 @@
 ---
-layout: post
+layout: page
 title: Matrix Code Rain
 description: The code rain from Matrix written in JavaScript for HTML5 canvas. 
 img: /assets/img/code-rain.png
+comments: true
+date: September 3, 2019
 ---
+After few times watching the entire Matrix trilogy and one night I decided to code the mesmerizing code-rain. The implementation involve native JavaScript
+with HTML5 Canvas and minimal usage of CSS. The entire coding took me about overnight, boy, I was exhausted and felt victorious after seeing the code rain
+work in a web page.
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+This HTML5 Canvas is also responsive in either Desktop and Mobile view. You could even resize the web browser or view in your mobile device and the canvas
+would fit nicely on screen!
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
+Fork and clone my repository at [Matrix Rain Code](https://github.com/jmsweb/matrix-code-rain). If there are anything that could be improved, go and create
+a pull request for review.
 
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /assets/img/12.jpg
-	---
-
-
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
-
-	<div class="img_row">
-	  <img class="col two" src="/assets/img/6.jpg"/>
-	  <img class="col one" src="/assets/img/11.jpg"/>
-	</div>
+<div style="width: 100%"><canvas id="matrix" style="width: 100%;"></canvas></div>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/code-rain.js"></script>

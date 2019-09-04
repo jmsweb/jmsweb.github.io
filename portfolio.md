@@ -2,7 +2,12 @@
 layout: page
 title: portfolio
 permalink: /portfolio/
+comments: true
 ---
+
+<p>
+    The projects in this portfolio section is work-in-progress because I'm integrating most of my repositories to be github-page friendly.
+</p>
 
 {% for project in site.portfolio %}
 
@@ -41,7 +46,7 @@ permalink: /portfolio/
         </a>
     </div>
 </div>
-
 {% endif %}
-
 {% endfor %}
+<div style="clear: both;"></div>
+<br/>
