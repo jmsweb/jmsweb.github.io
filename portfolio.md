@@ -6,7 +6,8 @@ comments: true
 ---
 
 <p>
-    The projects in this portfolio section is work-in-progress because I'm integrating most of my repositories to be github-page friendly.
+    The projects in this portfolio section is work-in-progress because I'm integrating most of my repositories to be github-page friendly. And, that
+    require time away from my schedule to focus on personal projects.
 </p>
 
 {% for project in site.portfolio %}

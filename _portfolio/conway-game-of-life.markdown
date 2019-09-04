@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Conway Game of Life
-description: A Code Generation in Conway Game of Life
+description: A Code Generation in Game of Life for JavaFX and Java with Maven
 img: /assets/img/gol-screenshot.png
 date: September 2, 2019
 ---
