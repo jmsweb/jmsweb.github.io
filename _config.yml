@@ -12,7 +12,6 @@ github_username:  jmsweb
 
 # Build settings
 markdown: kramdown
-
 highlighter: rouge
 
 # Pagination
