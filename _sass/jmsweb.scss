@@ -9,6 +9,12 @@ article {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     a { 
         color: #666;
+        text-decoration: underline;
+        font-weight: 100;
+        &:hover {
+            text-decoration: none;
+            color: $theme-color;
+        }
     }
 }
 
