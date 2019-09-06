@@ -13,8 +13,9 @@ work in a web page.
 This HTML5 Canvas is also responsive in either Desktop and Mobile view. You could even resize the web browser or view in your mobile device and the canvas
 would fit nicely on screen!
 
+<div style="width: 100%"><canvas id="matrix" style="width: 100%;"></canvas></div>
+
 Fork and clone my repository at [Matrix Rain Code](https://github.com/jmsweb/matrix-code-rain). If there are anything that could be improved, go and create
 a pull request for review.
 
-<div style="width: 100%"><canvas id="matrix" style="width: 100%;"></canvas></div>
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/code-rain.js"></script>
