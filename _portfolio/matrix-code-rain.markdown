@@ -15,7 +15,7 @@ would fit nicely on screen!
 
 <div style="width: 100%"><canvas id="matrix" style="width: 100%;"></canvas></div>
 
-Fork and clone my repository at [Matrix Rain Code](https://github.com/jmsweb/matrix-code-rain). If there are anything that could be improved, go and create
+Fork and clone my repository at [Matrix Rain Code](https://github.com/jmsweb/matrix-code-rain). If there are anything that could be improved, go  ahead and create
 a pull request for review.
 
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/code-rain.js"></script>
