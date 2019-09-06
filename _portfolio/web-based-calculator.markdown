@@ -17,9 +17,6 @@ backspacing digits. I'm sure there are other key features that I hadn't noticed 
 This HTML5 Table is also responsive in either Desktop and Mobile view. You could even resize the web browser or view in your mobile device and the table
 would fit nicely on screen!
 
-Fork and clone my repository at [Web Based Calculator](https://github.com/jmsweb/web-calculator). If there are anything that could be improved, go and create
-a pull request for review.
-
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/web-calculator.css'}} ">
 <div id="calculator-container">
     <table id="calculator-table">
@@ -60,3 +57,6 @@ a pull request for review.
     </table>
 </div>
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/web-calculator.js"></script>
+
+Fork and clone my repository at [Web Based Calculator](https://github.com/jmsweb/web-calculator). If there are anything that could be improved, go ahead and create
+a pull request for review.
