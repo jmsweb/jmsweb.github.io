@@ -2,7 +2,7 @@
 layout: page
 title: portfolio
 permalink: /portfolio/
-comments: true
+comments: false
 ---
 
 <p>
