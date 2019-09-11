@@ -2,7 +2,7 @@
 title: jmsweb
 email: no-rely@jmsweb.github.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple personal blog and portfolio site.
+  My personal blog and portfolio site.
 baseurl:  # the subpath of your site, e.g. /blog/
 url: https://jmsweb.github.io/  # the base hostname & protocol for your site
 github_url: https://www.github.com/jmsweb
